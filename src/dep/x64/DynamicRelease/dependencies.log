@@ -1,0 +1,142 @@
+﻿  jaricom.c
+  jcapimin.c
+  jcapistd.c
+  jcarith.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdarith.c
+  正在编译...
+  jdatadst.c
+D:\Dexian\src\dep\jpeg_c\jdatadst.c(185,34): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+D:\Dexian\src\dep\jpeg_c\jerror.c(195,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\jpeg_c\jerror.c(197,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  正在编译...
+  jidctint.c
+  jmemmgr.c
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(306,47): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(366,46): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(976,35): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(990,35): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(1106,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\jpeg_c\jmemmgr.c(1109,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  png.c
+D:\Dexian\src\dep\png_c\png.c(530,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+D:\Dexian\src\dep\png_c\pngpread.c(594,31): warning C4267: “-=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngpread.c(610,31): warning C4267: “-=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngpread.c(784,29): warning C4267: “-=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngpread.c(808,29): warning C4267: “-=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngread.c
+D:\Dexian\src\dep\png_c\pngread.c(132,12): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngread.c(137,10): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrio.c
+  pngrtran.c
+D:\Dexian\src\dep\png_c\pngrtran.c(1323,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngrtran.c(1705,41): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrtran.c(1719,41): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngrutil.c
+D:\Dexian\src\dep\png_c\pngrutil.c(263,32): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(273,43): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(276,34): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(285,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(333,13): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngrutil.c(438,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngrutil.c(1165,33): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(1195,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngrutil.c(1198,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngrutil.c(1294,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(2982,38): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(2997,38): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3015,49): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3040,47): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3382,48): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3390,48): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3395,48): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngrutil.c(3410,54): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngset.c
+D:\Dexian\src\dep\png_c\pngset.c(591,29): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngset.c(910,39): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngtrans.c
+D:\Dexian\src\dep\png_c\pngtrans.c(210,35): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngtrans.c(223,35): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngtrans.c(236,35): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngwio.c
+D:\Dexian\src\dep\png_c\pngwio.c(56,18): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  pngwrite.c
+D:\Dexian\src\dep\png_c\pngwrite.c(450,11): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwrite.c(546,12): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwrite.c(551,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngwtran.c
+D:\Dexian\src\dep\png_c\pngwtran.c(260,42): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  正在编译...
+  pngwutil.c
+D:\Dexian\src\dep\png_c\pngwutil.c(218,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngwutil.c(253,40): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngwutil.c(226,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwutil.c(1261,10): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwutil.c(1580,45): warning C4267: “=”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+D:\Dexian\src\dep\png_c\pngwutil.c(1623,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwutil.c(1625,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\png_c\pngwutil.c(2108,36): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+D:\Dexian\src\dep\zlib_c\gzlib.c(222,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\zlib_c\gzlib.c(516,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\zlib_c\gzlib.c(517,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Dexian\src\dep\zlib_c\gzlib.c(518,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gzread.c
+  gzwrite.c
+D:\Dexian\src\dep\zlib_c\gzwrite.c(333,11): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1553,5): warning MSB8012: TargetPath(D:\Dexian\src\x64\DynamicRelease\dependencies.lib) 与 Library 的 OutputFile 属性值(D:\Dexian\src\lib\dependenciesx64.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1555,5): warning MSB8012: TargetName(dependencies) 与 Library 的 OutputFile 属性值(dependenciesx64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+  dependencies.vcxproj -> D:\Dexian\src\x64\DynamicRelease\dependencies.lib

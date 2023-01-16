@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1553,5): warning MSB8012: TargetPath(D:\Dexian\src\x64\Debug\dependencies.lib) 与 Library 的 OutputFile 属性值(D:\Dexian\src\lib\dependenciesD.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1555,5): warning MSB8012: TargetName(dependencies) 与 Library 的 OutputFile 属性值(dependenciesD)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+  dependencies.vcxproj -> D:\Dexian\src\x64\Debug\dependencies.lib

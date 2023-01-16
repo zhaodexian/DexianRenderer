@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="req">
+      <UniqueIdentifier>{668cef75-de8c-4cb8-b90c-fccfa248ed6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a4b21a61-fdd4-449d-a48c-bb38d25bd846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{49419943-facf-4fde-9a7b-44392f720f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device">
+      <UniqueIdentifier>{355b989f-614a-48e2-853a-eeaa05cdb6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Meshs">
+      <UniqueIdentifier>{718f6256-d8dd-4162-bad3-8410d7ae97e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Android.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhantomDirectX9.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomWin32.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="req\myunzip.h">
+      <Filter>req</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomOpenGL.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DexianExec.h" />
+    <ClInclude Include="..\..\include\DexianUIBase.h" />
+    <ClInclude Include="..\..\include\ImportCPP.h" />
+    <ClInclude Include="..\..\include\PhantomAction.h" />
+    <ClInclude Include="..\..\include\PhantomEffect.h" />
+    <ClInclude Include="..\..\include\MyInclude.h" />
+    <ClInclude Include="..\..\include\PhantomBase.h" />
+    <ClInclude Include="..\..\include\PhantomBone.h" />
+    <ClInclude Include="..\..\include\PhantomCamera.h" />
+    <ClInclude Include="..\..\include\PhantomDefine.h" />
+    <ClInclude Include="..\..\include\PhantomDevice.h" />
+    <ClInclude Include="..\..\include\PhantomEnum.h" />
+    <ClInclude Include="..\..\include\PhantomFile.h" />
+    <ClInclude Include="..\..\include\PhantomFloatAnimation.h" />
+    <ClInclude Include="..\..\include\PhantomFont.h" />
+    <ClInclude Include="..\..\include\PhantomManager.h" />
+    <ClInclude Include="..\..\include\PhantomMath.h" />
+    <ClInclude Include="..\..\include\PhantomSubMesh.h" />
+    <ClInclude Include="..\..\include\PhantomMesh.h" />
+    <ClInclude Include="..\..\include\PhantomMusic2D.h" />
+    <ClInclude Include="..\..\include\PhantomOS.h" />
+    <ClInclude Include="encrypt.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PhantomSocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PhantomScene3D.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PhantomScene3DUnits.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PhantomSceneDefine3D.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhantomBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomDefine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomFloatAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMusic2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomOpenGL2_0.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomDirectX9.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomDevice.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomBone.cpp">
+      <Filter>include\Meshs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomManagerRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomWin32.cpp">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMusicAndroid.cpp">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMusicIOS.cpp">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMusicWin32.cpp">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="req\myunzip.cpp">
+      <Filter>req</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomEffect.cpp">
+      <Filter>include\Meshs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomSubMesh.cpp">
+      <Filter>include\Meshs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMesh.cpp">
+      <Filter>include\Meshs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomOpenGL.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="DexianUIBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DexianExec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportCPP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomOSAndroid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomShadowMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomSocketAndroid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomSocketIOS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomSocketWin32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomScene3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomScene3DUnits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomAStarPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomHttp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomMap3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomOS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineAPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

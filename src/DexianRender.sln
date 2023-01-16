@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dependencies", "dep\dependencies.vcxproj", "{777271DB-5C00-46C4-B57F-28AFA3C7976B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32_Emulator", "Emulator\Win32Emulator.vcxproj", "{E0CF097B-F22D-465B-A884-D89E55BD7ECD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render", "Renderer\Render.vcxproj", "{259BBDE3-6081-4E55-88A6-F813C20296C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderLines", "RenderLines\RenderLines.vcxproj", "{C20EEA71-5CC5-4E55-84B9-82706C3A530B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DynamicDebug|x64 = DynamicDebug|x64
+		DynamicDebug|x86 = DynamicDebug|x86
+		DynamicRelease|x64 = DynamicRelease|x64
+		DynamicRelease|x86 = DynamicRelease|x86
+		OpenGL_V1|x64 = OpenGL_V1|x64
+		OpenGL_V1|x86 = OpenGL_V1|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Debug|x64.ActiveCfg = Debug|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Debug|x64.Build.0 = Debug|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Debug|x86.ActiveCfg = Debug|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Debug|x86.Build.0 = Debug|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicDebug|x64.ActiveCfg = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicDebug|x64.Build.0 = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicDebug|x86.ActiveCfg = DynamicRelease|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicDebug|x86.Build.0 = DynamicRelease|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicRelease|x64.ActiveCfg = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicRelease|x64.Build.0 = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicRelease|x86.ActiveCfg = DynamicRelease|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.DynamicRelease|x86.Build.0 = DynamicRelease|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.OpenGL_V1|x64.ActiveCfg = OpenGL_V1|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.OpenGL_V1|x64.Build.0 = OpenGL_V1|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.OpenGL_V1|x86.ActiveCfg = OpenGL_V1|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.OpenGL_V1|x86.Build.0 = OpenGL_V1|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Release|x64.ActiveCfg = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Release|x64.Build.0 = DynamicRelease|x64
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Release|x86.ActiveCfg = DynamicRelease|Win32
+		{777271DB-5C00-46C4-B57F-28AFA3C7976B}.Release|x86.Build.0 = DynamicRelease|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Debug|x64.ActiveCfg = DynamicDebug|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Debug|x64.Build.0 = DynamicDebug|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Debug|x86.ActiveCfg = DynamicDebug|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Debug|x86.Build.0 = DynamicDebug|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicDebug|x64.ActiveCfg = DynamicDebug|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicDebug|x64.Build.0 = DynamicDebug|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicDebug|x86.ActiveCfg = DynamicDebug|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicDebug|x86.Build.0 = DynamicDebug|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicRelease|x64.ActiveCfg = DynamicRelease|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicRelease|x64.Build.0 = DynamicRelease|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicRelease|x86.ActiveCfg = DynamicRelease|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.DynamicRelease|x86.Build.0 = DynamicRelease|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.OpenGL_V1|x64.ActiveCfg = OpenGL_V1|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.OpenGL_V1|x64.Build.0 = OpenGL_V1|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.OpenGL_V1|x86.ActiveCfg = OpenGL_V1|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.OpenGL_V1|x86.Build.0 = OpenGL_V1|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Release|x64.ActiveCfg = DynamicRelease|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Release|x64.Build.0 = DynamicRelease|x64
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Release|x86.ActiveCfg = DynamicRelease|Win32
+		{E0CF097B-F22D-465B-A884-D89E55BD7ECD}.Release|x86.Build.0 = DynamicRelease|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Debug|x64.ActiveCfg = DynamicDebug|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Debug|x64.Build.0 = DynamicDebug|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Debug|x86.ActiveCfg = DynamicDebug|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Debug|x86.Build.0 = DynamicDebug|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicDebug|x64.ActiveCfg = DynamicDebug|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicDebug|x64.Build.0 = DynamicDebug|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicDebug|x86.ActiveCfg = DynamicDebug|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicDebug|x86.Build.0 = DynamicDebug|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicRelease|x64.ActiveCfg = DynamicRelease|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicRelease|x64.Build.0 = DynamicRelease|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicRelease|x86.ActiveCfg = DynamicRelease|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.DynamicRelease|x86.Build.0 = DynamicRelease|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.OpenGL_V1|x64.ActiveCfg = OpenGL_V1|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.OpenGL_V1|x64.Build.0 = OpenGL_V1|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.OpenGL_V1|x86.ActiveCfg = OpenGL_V1|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.OpenGL_V1|x86.Build.0 = OpenGL_V1|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Release|x64.ActiveCfg = DynamicRelease|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Release|x64.Build.0 = DynamicRelease|x64
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Release|x86.ActiveCfg = DynamicRelease|Win32
+		{259BBDE3-6081-4E55-88A6-F813C20296C8}.Release|x86.Build.0 = DynamicRelease|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Debug|x64.ActiveCfg = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Debug|x64.Build.0 = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Debug|x86.Build.0 = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicDebug|x64.ActiveCfg = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicDebug|x64.Build.0 = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicDebug|x86.ActiveCfg = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicDebug|x86.Build.0 = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicRelease|x64.ActiveCfg = Release|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicRelease|x64.Build.0 = Release|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicRelease|x86.ActiveCfg = Release|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.DynamicRelease|x86.Build.0 = Release|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.OpenGL_V1|x64.ActiveCfg = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.OpenGL_V1|x64.Build.0 = Debug|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.OpenGL_V1|x86.ActiveCfg = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.OpenGL_V1|x86.Build.0 = Debug|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Release|x64.ActiveCfg = Release|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Release|x64.Build.0 = Release|x64
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Release|x86.ActiveCfg = Release|Win32
+		{C20EEA71-5CC5-4E55-84B9-82706C3A530B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1477A6C-B34A-4848-A0CD-EC93025D8606}
+	EndGlobalSection
+EndGlobal
